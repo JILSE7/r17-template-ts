@@ -32,7 +32,7 @@ AllCaps.args = {
     color:'secondary'
 }
 
-export const Tertiary = Template.bind({});
+//export const Tertiary = Template.bind({});
 
 export const CustomBotton = Template.bind({});
 CustomBotton.args = {
