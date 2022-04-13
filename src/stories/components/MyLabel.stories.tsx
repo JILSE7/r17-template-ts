@@ -39,5 +39,6 @@ CustomBotton.args = {
     size: 'h1',
     allCaps:true,
     color:'primary',
-    fontColor: '#141'
+    fontColor: '#141',
+    backgroundColor: 'red'
 }

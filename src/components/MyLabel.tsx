@@ -20,14 +20,15 @@ export interface IProps {
      /**
        * Color personalizado de la fuente
      */
-    fontColor?:string
+    fontColor?:string,
+    backgroundColor?: string
     
 
 }
 
-const MyLabel = ({label = 'no label', size = 'normal', allCaps=false, color = 'primary', fontColor}:IProps) => {
+const MyLabel = ({label = 'no label', size = 'normal', allCaps=false, color = 'primary', fontColor, backgroundColor = 'transparent'}:IProps) => {
   return (
-    <span  className={`${size} ${allCaps&&'upper'} text-${color} label`} style={{color:fontColor}}>
+    <span  className={`${size} ${allCaps&&'upper'} text-${color} label`} style={{color:fontColor, backgroundColor}}>
         {label}
     </span>
   )
