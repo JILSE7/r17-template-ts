@@ -26,7 +26,7 @@ export interface IProps {
 
 }
 
-const MyLabel = ({label = 'no label', size = 'normal', allCaps=false, color = 'primary', fontColor, backgroundColor = 'transparent'}:IProps) => {
+export const MyLabel = ({label = 'no label', size = 'normal', allCaps=false, color = 'primary', fontColor, backgroundColor = 'transparent'}:IProps) => {
   return (
     <span  className={`${size} ${allCaps&&'upper'} text-${color} label`} style={{color:fontColor, backgroundColor}}>
         {label}
@@ -34,4 +34,3 @@ const MyLabel = ({label = 'no label', size = 'normal', allCaps=false, color = 'p
   )
 }
 
-export default MyLabel
