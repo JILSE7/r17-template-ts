@@ -5,7 +5,7 @@
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
-  "homepage": "www.jilse.com.mz",
+  "homepage": "www.jilse.com.mx",
   "repository": {
     "url": "https://github.com/JILSE7/r17-template-ts",
     "type": "git"
